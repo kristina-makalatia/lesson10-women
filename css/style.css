@@ -1,0 +1,65 @@
+/* form styles */
+.form-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.input-block {
+    max-width: 700px;
+    width: 100%;
+    height: 60px;
+    color: blue;
+    font-size: 22px;
+    border:none;
+    border-bottom: 2px solid red;
+}
+.input-block:focus,
+.texarea-block:focus {
+    outline: none;
+}
+.texarea-block {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize:none;
+    color: blue;
+    font-size: 22px;
+}
+/* .input-block[type="password"] {
+    background-color: red;
+} */
+.input-block::-webkit-input-placeholder, .texarea-block::-webkit-input-placeholder {
+    color: red;
+    font-size:15px;
+}
+.input-block::-moz-placeholder, .texarea-block::-moz-placeholder {
+    color: red;
+    font-size:15px;
+}
+.input-block:-ms-input-placeholder, .texarea-block:-ms-input-placeholder {
+    color: red;
+    font-size:15px;
+}
+.input-block::-ms-input-placeholder, .texarea-block::-ms-input-placeholder {
+    color: red;
+    font-size:15px;
+}
+.input-block::placeholder,
+.texarea-block::placeholder {
+    color: red;
+    font-size:15px;
+}
+
+.btn-submit {
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+}
